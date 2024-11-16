@@ -1,0 +1,28 @@
+header {
+    background-image: url('images/Boat.png');
+}
+
+.button-style {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text */
+    text-align: center;
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.button-style:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+.button-link+.button-link {
+    margin-top: 10px;
+}
